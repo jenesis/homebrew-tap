@@ -4,20 +4,20 @@
 Invoke either of the following commands if the formula is hosted at GitHub
 
 ```sh
-$ brew install raphw/tap/<formula>
+$ brew install jenesis/tap/<formula>
 ```
 
 Or
 
 ```sh
-$ brew tap raphw/tap
+$ brew tap jenesis/tap
 $ brew install <formula>
 ```
 
 Invoke the following command if the formula is *not* hosted at GitHub
 
 ```sh
-brew tap raphw/homebrew-tap https://github.com/raphw/homebrew-tap.git
+brew tap jenesis/homebrew-tap https://github.com/jenesis/homebrew-tap.git
 brew install <formula>
 ```
 
@@ -25,20 +25,20 @@ brew install <formula>
 Invoke either of the following commands if the cask is hosted at GitHub
 
 ```sh
-$ brew install --cask raphw/tap/<cask>
+$ brew install --cask jenesis/tap/<cask>
 ```
 
 Or
 
 ```sh
-$ brew tap raphw/tap
+$ brew tap jenesis/tap
 $ brew install --cask <cask>
 ```
 
 Invoke the following command if the cask is *not* hosted at GitHub
 
 ```sh
-brew tap raphw/homebrew-tap https://github.com/raphw/homebrew-tap.git
+brew tap jenesis/homebrew-tap https://github.com/jenesis/homebrew-tap.git
 brew install --cask <formula>
 ```
 
