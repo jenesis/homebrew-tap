@@ -1,11 +1,11 @@
-# Generated with JReleaser 1.26.0 at 2026-09-10T00:30:45.688486092+02:00
+# Generated with JReleaser 1.26.0
 
 class Jpx < Formula
   desc "Runs a published module or Maven artifact with one command"
   homepage "https://github.com/jenesis/jenesis"
-  url "https://github.com/jenesis/jenesis/releases/download/v0.12.0/jpx-0.12.0.zip"
-  version "0.12.0"
-  sha256 "7d98f4b9c1592fac46fea3a867e6032d890e64fc611dcfbcb9fe527cf82538f2"
+  url "https://github.com/jenesis/jenesis/releases/download/v0.13.0/jpx-0.13.0.zip"
+  version "0.13.0"
+  sha256 "3c24142d4e6ba8e02635b63ff4cc09f672db656a9ec8de56650455672dfee225"
   license "Apache-2.0"
 
   depends_on "openjdk@25"
