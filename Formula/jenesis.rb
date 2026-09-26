@@ -3,9 +3,9 @@
 class Jenesis < Formula
   desc "A Java-native build tool."
   homepage "https://github.com/jenesis/jenesis"
-  url "https://github.com/jenesis/jenesis/releases/download/v0.15.1/jenesis-0.15.1.zip"
-  version "0.15.1"
-  sha256 "62939d9941495969b161d6cc1f7c5b11ee20499fbbeefc212273d317730d3d2f"
+  url "https://github.com/jenesis/jenesis/releases/download/v0.15.2/jenesis-0.15.2.zip"
+  version "0.15.2"
+  sha256 "f78c4a9376bba9b58c5c17c1befd5d03ed6b30c3ed6e4f7def4a628e6b7bb367"
   license "Apache-2.0"
 
   depends_on "openjdk@25"
@@ -14,7 +14,7 @@ class Jenesis < Formula
     libexec.install Dir["*"]
     Dir["#{libexec}/bin/*"].each do |command|
       name = File.basename(command)
-      next if name.end_with?(".bat")
+      next if name.end_with?(".bat") || name == "jenesis-jdk"
       if name == "jenesis-switch"
         # sourced by the calling shell, so it is linked rather than wrapped in an exec
         bin.install_symlink command => name
