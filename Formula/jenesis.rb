@@ -3,9 +3,9 @@
 class Jenesis < Formula
   desc "A Java-native build tool."
   homepage "https://github.com/jenesis/jenesis"
-  url "https://github.com/jenesis/jenesis/releases/download/v0.16.0/jenesis-0.16.0.zip"
-  version "0.16.0"
-  sha256 "fc4982be0c67b17461f5f2b7719603e3ff9347840c3d7573962465858299f658"
+  url "https://github.com/jenesis/jenesis/releases/download/v0.16.1/jenesis-0.16.1.zip"
+  version "0.16.1"
+  sha256 "98d78e280c271cd6690920d0e2a0bd2bc9513a14221c74fdfa4a329d2965a664"
   license "Apache-2.0"
 
   depends_on "openjdk@25"
