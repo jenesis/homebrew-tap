@@ -3,9 +3,9 @@
 class Jpx < Formula
   desc "Runs a published module or Maven artifact with one command"
   homepage "https://github.com/jenesis/jenesis"
-  url "https://github.com/jenesis/jenesis/releases/download/v0.17.0/jpx-0.17.0.zip"
-  version "0.17.0"
-  sha256 "e5bb215b221d135eb054f6ec5e61cc96e335b024db929291f6de2d009298c813"
+  url "https://github.com/jenesis/jenesis/releases/download/v0.18.0/jpx-0.18.0.zip"
+  version "0.18.0"
+  sha256 "4e8d4551712e5423c9568859f48d91baf0ccdfd049c8334248d9244b584d76fe"
   license "Apache-2.0"
 
   depends_on "openjdk@25"
